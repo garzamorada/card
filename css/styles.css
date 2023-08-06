@@ -74,12 +74,16 @@ body {
 .btn {
     background-color: var(--color-2);
     border: var(--color-2);
+    color: white;
+    font-size: 12px;
 }
 
 .btn:hover,
 .btn:active,
 .btn:focus {
     background-color: var(--color-1);
+    color: white;
+    font-size: 12px;
 }
 
 @media screen and (min-width:700px) {
